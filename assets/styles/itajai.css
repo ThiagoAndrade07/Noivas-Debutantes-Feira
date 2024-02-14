@@ -1,0 +1,22 @@
+.destaque-itajai {
+    padding: 69px 25px 0px 25px;
+    background: linear-gradient(var(--var-gradiente-principal));
+}
+
+.destaque-itajai-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque-itajai-container img {
+    width: 100%;
+    margin: 10px 0;
+    max-width: 800px;
+}
+@media screen and (min-width: 760px){
+    .destaque-itajai {
+        padding: 69px 200px 0 200px;
+    }
+}

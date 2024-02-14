@@ -1,0 +1,117 @@
+.fotos-2023 {
+    background-color: var(--cor-terciaria );
+    padding: 89px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotos-container-anos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ano-2023 {
+    border-bottom: 4px solid var(--cor-principal);
+}
+
+.h1-padrao-galeria {
+    color: var(--var-cor-branca);
+}
+
+.galeria-fotos-container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.galeria-fotos-container-box-padrao {
+    width: 320px;
+    height: 320px;
+    border: 1px solid var(--cor-principal);
+    margin: 10px 15px;
+}
+
+.img-galeria-foto-1 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.img-galeria  {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.foto-1 {
+    background-image: url("../img/galeria-2023/foto-1.jpeg");
+}
+.foto-2 {
+    background-image: url("../img/galeria-2023/foto-2.jpeg");
+}
+.foto-3 {
+    background-image: url("../img/galeria-2023/foto-3.jpeg");
+}
+.foto-4 {
+    background-image: url("../img/galeria-2023/foto-4.jpeg");
+}
+.foto-5 {
+    background-image: url("../img/galeria-2023/foto-5.jpeg");
+}
+.foto-6 {
+    background-image: url("../img/galeria-2023/foto-6.jpeg");
+}
+.foto-7 {
+    background-image: url("../img/galeria-2023/foto-7.jpeg");
+}
+.foto-8 {
+    background-image: url("../img/galeria-2023/foto-8.jpeg");
+}
+.foto-9 {
+    background-image: url("../img/galeria-2023/foto-9.jpeg");
+}
+.foto-10 {
+    background-image: url("../img/galeria-2023/foto-10.jpeg");
+}
+.foto-11 {
+    background-image: url("../img/galeria-2023/foto-11.jpeg");
+}
+.foto-12 {
+    background-image: url("../img/galeria-2023/foto-12.jpeg");
+}
+.foto-13 {
+    background-image: url("../img/galeria-2023/foto-13.jpeg");
+}
+.foto-14 {
+    background-image: url("../img/galeria-2023/foto-14.jpeg");
+}
+.foto-15 {
+    background-image: url("../img/galeria-2023/foto-15.jpeg");
+}
+.foto-16 {
+    background-image: url("../img/galeria-2023/foto-16.jpeg");
+}
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    .galeria-fotos-container-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+}

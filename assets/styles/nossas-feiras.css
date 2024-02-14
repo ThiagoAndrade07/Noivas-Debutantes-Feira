@@ -1,0 +1,39 @@
+.nossas-feiras {
+    background-color: var(--cor-principal);
+}
+.nossas-feiras-container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossas-feiras-container-box img {
+    width: 100%;
+    max-width: 200px;
+}
+
+
+.nossas-feiras-last-img {
+    padding-bottom: 30px;
+}
+
+
+@media screen and (min-width:1024px) {
+    .nossas-feiras-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nossas-feiras-container-box {
+        margin: 10px 30px 30px 30px;
+    }
+    .nossas-feiras-container-box img {
+        max-width: 300px;
+    }
+
+    .nossas-feiras-last-img {
+        padding-bottom: 0px;
+    }
+
+}

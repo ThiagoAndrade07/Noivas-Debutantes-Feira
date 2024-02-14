@@ -1,0 +1,124 @@
+.cabecalho {
+    background-color: var(--cor-principal);
+    position: fixed;
+    width: 100vw;
+    height: 69px;
+    z-index: 100;
+}
+
+.cabecalho_menu-hamburguer {
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/testeMenu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.cabecalho-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.cabecalho_imagem {
+    width: 150px;
+    padding-top: 3px;
+}
+
+/* Lista header / Menu hamburguer */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50vw;
+}
+
+.container_botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu_titulo, .lista-menu_item {
+    padding: 0.5em;
+    background-color: var(--cor-principal);
+    height: fit-content;
+    text-align: end;
+}
+
+.lista-menu_titulo {
+    color: var(--cor-terciaria);
+    font-weight: 700;
+}
+
+.lista-menu_link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+
+.lista-menu_link:hover {
+    color: var(--cor-terciaria);
+    border-bottom: 4px solid var(--cor-terciaria);
+}
+
+.container_botao {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho_menu-hamburguer {
+        display: none;
+    }
+    
+    .cabecalho {
+        height: 65px;
+    }
+
+    .cabecalho-container {
+        width: 1000px;
+    }
+    
+    .cabecalho_imagem {
+        width: 200px;
+    }
+
+    .lista-menu {
+        display: block;
+        position: static;
+        display: flex;
+        width: fit-content;
+    }
+
+    .lista-menu_titulo {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .cabecalho-container {
+        width: 1174px;
+    }
+
+    .lista-menu_titulo, .lista-menu_item {
+        padding: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1450px) {
+
+    .cabecalho-container {
+        width: 1400px;
+    }
+
+}

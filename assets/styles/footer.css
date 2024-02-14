@@ -1,0 +1,28 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:200px;
+    background-color: var(--cor-secundaria);
+}
+
+.a-footer {
+    text-decoration: none;
+    color: var(--var-cor-branca);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.a-footer-maior {
+    text-decoration: none;
+    color: var(--var-cor-branca);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer img {
+    max-width: 200px;
+}

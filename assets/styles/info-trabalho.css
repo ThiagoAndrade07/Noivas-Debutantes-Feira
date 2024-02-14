@@ -1,0 +1,43 @@
+
+.info-trabalho {
+    padding: 15px 30px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.info-trabalho-text {
+    font-size: var(--font-texto-corpo-mobile);
+}
+
+.info-trabalho-container-sep-box{
+    margin: 20px 0;
+}
+
+.info-trabalho-text-finish {
+    font-size: var(--font-texto-corpo-mobile);
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:1024px) {
+    .info-trabalho {
+        line-height: 34px;
+    }
+    .info-trabalho-container-sep {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sep-box-right {
+        padding-left: 30px;
+    }
+    .info-trabalho-text, .info-trabalho-text-finish {
+        font-size: var(--font-texto-corpo);
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .info-trabalho {
+        padding: 40px 300px;
+    }
+}

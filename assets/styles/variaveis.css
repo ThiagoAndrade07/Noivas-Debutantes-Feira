@@ -1,0 +1,22 @@
+:root {
+
+    --var-cor-branca: #fff;
+    --var-cor-preta: #000;
+    --var-gradiente-principal: 
+        115deg,
+        hsl(39deg 48% 74%) 2%,
+        hsl(36deg 39% 63%) 23%,
+        hsl(35deg 34% 52%) 40%,
+        hsl(34deg 44% 40%) 60%,
+        hsl(34deg 66% 29%) 100%;
+    --cor-principal: #d5ba9f;
+    --cor-secundaria: #957b5b;
+    --cor-secundaria-opacity: rgba(149, 123, 91, 0.4);
+    --cor-terciaria: #534636;
+    --font-texto-corpo: 18px;
+    --font-texto-corpo-mobile: 14px;
+    --font-descricao: 14px;
+    --font-descricao-mobile: 12px;
+
+}
+

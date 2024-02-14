@@ -1,0 +1,25 @@
+.fotos-2024 {
+    background-color: var(--cor-terciaria );
+    padding: 89px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ano-2024 {
+    border-bottom: 4px solid var(--cor-principal);
+    margin-bottom: 20px;
+}
+
+.em-breve {
+    background-image: url("../img/EM\ BREVE.png");
+}
+
+.aviso-2024 p {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
