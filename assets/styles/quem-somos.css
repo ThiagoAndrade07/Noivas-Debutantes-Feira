@@ -6,7 +6,7 @@
 
 .quem-somos-container-main {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 
@@ -28,14 +28,29 @@
 
 .quem-somos-container-fotos-box img {
     width: 100%;
-    max-width: 150px;
     border-radius: 100%;
     margin-bottom: 10px;
+    min-width: 130px;
+    min-height: 130px;
+    max-width: 130px;
+    max-height: 130px;
     border: 2px solid var(--cor-principal);
 }
 
 .img-larissa {
     margin-right: 25px;
+}
+
+.div-texto-sobre-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-nome{
+    text-wrap:nowrap;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 
@@ -45,21 +60,22 @@
     }
 
     .quem-somos-container-main {
-        display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .quem-somos-container-fotos {
-        flex-direction: column;
-        margin-right: 30px;
+        flex-direction: row;
     }
 
     .quem-somos-container-fotos-box img {
         max-width: 150px;
         border-radius: 100%;
         margin-bottom: 10px;
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 200px;
+        max-height: 200px;
         border: 2px solid var(--cor-principal);
     }
 
@@ -69,7 +85,7 @@
     }
 
     .img-larissa {
-        margin-right: 0px;
+        margin-right: 40px;
     }
 }
 
